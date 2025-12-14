@@ -1,6 +1,6 @@
 ## 使用modelscope命令下载模型，进度条都不动就是下载完了：
 ```shell
-modelscope download --model 'Qwen/Qwen1.5-1.8B-Chat' --local_dir '/mnt/e/base_model/Qwen1.5-1.8B-Chat'
+modelscope download --model 'Qwen/Qwen1.5-1.8B-Chat' --local_dir '/root/autodl-fs/base_model/Qwen1.5-1.8B-Chat'
 ```
 
 ```shell
@@ -108,7 +108,7 @@ transformers_stream_generator==0.0.5
 
 ## 单卡微调（单机单卡）-- 目前运行这个成功
 ```shell
-xtuner train --work-dir /mnt/e/xtuner/qwen1_5_1_8b_chat_qlora_alpaca_e3 /home/wenguoli/xtuner/myxtuner/qwen1_5_1_8b_chat_qlora_alpaca_e3.py 
+xtuner train --work-dir /root/autodl-fs/xtuner_out/qwen1_5_1_8b_chat_qlora_alpaca_e3 /root/xtuner/myxtuner/qwen1_5_1_8b_chat_qlora_alpaca_e3.py 
 ```
 
 ## 多卡微调（单机多卡）

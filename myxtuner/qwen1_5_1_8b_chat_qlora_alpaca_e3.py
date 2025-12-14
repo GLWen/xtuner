@@ -31,7 +31,7 @@ from xtuner.utils import PROMPT_TEMPLATE, SYSTEM_TEMPLATE
 #                          PART 1  Settings                           #
 #######################################################################
 # Model
-pretrained_model_name_or_path = "/root/base_model/Qwen1.5-1.8B-Chat"
+pretrained_model_name_or_path = "/root/autodl-fs/base_model/Qwen1.5-1.8B-Chat"
 use_varlen_attn = False
 
 # Data
@@ -230,7 +230,7 @@ visualizer = None
 log_level = "INFO"
 
 # load from which checkpoint
-load_from = "/root/xtuner_out/qwen1_5_1_8b_chat_qlora_alpaca_e3/iter_500.pth"
+load_from = "/root/autodl-fs/xtuner_out/qwen1_5_1_8b_chat_qlora_alpaca_e3/iter_500.pth"
 
 # whether to resume training from the loaded checkpoint
 resume = False
