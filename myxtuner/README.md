@@ -113,7 +113,7 @@ xtuner train --work-dir /root/autodl-fs/xtuner_out/qwen1_5_1_8b_chat_qlora_alpac
 
 ## 多卡微调（单机多卡）
 ```shell
-NPROC_PER_NODE=2 xtuner train --work-dir /mnt/e/xtuner/qwen1_5_1_8b_chat_qlora_alpaca_e3 /home/wenguoli/xtuner/myxtuner/qwen1_5_1_8b_chat_qlora_alpaca_e3.py --deepspeed deepspeed_zero2
+NPROC_PER_NODE=2 xtuner train --work-dir /root/autodl-fs/xtuner_out/qwen1_5_1_8b_chat_qlora_alpaca_e3_zero2 /root/xtuner/myxtuner/qwen1_5_1_8b_chat_qlora_alpaca_e3_zero2.py  --deepspeed deepspeed_zero2
 ```
 
 

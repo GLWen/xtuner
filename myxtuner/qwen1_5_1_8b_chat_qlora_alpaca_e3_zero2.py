@@ -230,7 +230,7 @@ visualizer = None
 log_level = "INFO"
 
 # load from which checkpoint
-load_from = "/root/autodl-fs/xtuner_out/qwen1_5_1_8b_chat_qlora_alpaca_e3/iter_500.pth"
+load_from = None
 
 # whether to resume training from the loaded checkpoint
 resume = False
